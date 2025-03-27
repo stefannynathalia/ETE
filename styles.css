@@ -1,24 +1,22 @@
 body{
-    background-color: aquamarine;
+    background-color: white;
     text-align: 10px;
 }
 header{
-    background-color: blue;
-    color: blueviolet;
+    background-color: white;
+    color: black;
     padding: 10px;
 }
-book-list{
-    background: white;
+.livros-lista{
+    width:auto;
+}
+.book-list{
+    background: pink;
     padding: 15px;
     margin: 15px;
-    width: 20px;
-}
-ul{
-    list-style: nome;
-    padding:0%;
-}
-ul li{
-    background-color: bisque;
-    margin: 10px;
-    padding: 10px;
+    width: auto;
+} 
+.container{
+    display: flex;
+    gap: 5px;
 }
